@@ -1,9 +1,9 @@
 import axios from 'axios';
 import { useAuth } from '../auth/AuthProvider';
 
-// Option 1: plain instance plus a helper hook
+// plain instance plus a helper hook
 export const apiClient = axios.create({
-  baseURL: 'https://localhost:3000',
+  baseURL: 'https://note-taking-app-back-end.onrender.com',
   timeout: 10000,
 });
 
